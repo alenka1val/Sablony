@@ -1,0 +1,66 @@
+html * {
+    font-family: "Montserrat", serif;
+}
+
+.carousel-caption h1 {
+    color: orange;
+}
+
+.carousel-caption p {
+    color: orange;
+    font-style: oblique;
+}
+
+.badge {
+    background-color: orange;
+}
+
+.nav-link {
+    color: #808080;
+}
+
+.navbar *:hover {
+    color: #333333;
+}
+
+.btn-primary {
+    background-color: orange;
+    border: 1px solid black;
+}
+
+.btn-primary:hover {
+    background-color: orangered;
+    border: 1px solid black;
+}
+
+.btn-outline-primary {
+    border: 1px solid orange;
+    color: orange;
+}
+
+.btn-outline-primary:hover {
+    background-color: white;
+    border: 1px solid orangered;
+    color: orangered;
+}
+
+.w3-sidebar ul {
+    list-style-type: none;
+}
+
+.w3-sidebar li {
+    margin-left: -50px;
+    border-bottom: 1px solid #ffa50033;
+    color: black;
+    background-color: #ffa50066;
+}
+
+.w3-sidebar {
+    background-color: #ffa50033;
+}
+
+.item *:hover {
+    text-decoration: none;
+    color: orange;
+}
+
