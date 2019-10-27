@@ -17,6 +17,8 @@
     <!-- CSRF Token -->
     <meta name="csrf-token" content="{{ csrf_token() }}">
 
+    <!--    my stylesheet-->
+    <link href="../stylesheet.css" rel="stylesheet">
     <title>
         PetShop
     </title>
@@ -29,20 +31,8 @@
 
 <header class="app-header">
     <!--header navigation-->
-    <style>
-        .navbar-toggler:focus, .navbar-toggler:active {
-            outline: none;
-            box-shadow: none;
-        }
-
-        .form-control{
-            border-bottom: 1px solid black;
-        }
-
-    </style>
-
     <div class="pos-f-t">
-        <nav class="navbar sticky-top navbar-light bg-light">
+        <nav class="navbar navbar-dark bg-dark">
             <div class="row mr-auto">
                 <button class="side-menu navbar-toggler"  style="border: 0 solid">
                     <i class="fas fa-bars"></i>
@@ -70,7 +60,7 @@
             </div>
         </nav>
         <div class="collapse" id="navbarToggleExternalContent">
-            <div class="bg-light p-4">
+            <div class="bg-dark p-4">
                 <div class="md-form active-pink active-pink-2 mb-3 mt-0">
                     <input class="form-control" type="text" placeholder="Search" aria-label="Search">
                 </div>
@@ -119,12 +109,6 @@
 
     <main class="main" id="main">
         <!--breadcrumbs-->
-        <style>
-            .breadcrumb{
-                background: white;
-                margin: 0;
-            }
-        </style>
         <nav aria-label="breadcrumb">
             <ol class="breadcrumb">
                 <li class="breadcrumb-item active" aria-current="page">Home</li>

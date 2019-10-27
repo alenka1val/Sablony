@@ -17,6 +17,8 @@
     <!-- CSRF Token -->
     <meta name="csrf-token" content="{{ csrf_token() }}">
 
+    <!--    my stylesheet-->
+    <link href="../stylesheet.css" rel="stylesheet">
     <title>
         PetShop
     </title>
@@ -29,19 +31,8 @@
 
 <header class="app-header">
     <!--header navigation-->
-    <style>
-        .navbar-toggler:focus, .navbar-toggler:active {
-            outline: none;
-            box-shadow: none;
-        }
-
-        .form-control{
-            border-bottom: 1px solid black;
-        }
-
-    </style>
     <div class="pos-f-t">
-        <nav class="navbar sticky-top navbar-light bg-light">
+        <nav class="navbar navbar-dark bg-dark">
             <div class="row mr-auto">
                 <button class="side-menu navbar-toggler"  style="border: 0 solid">
                     <i class="fas fa-bars"></i>
@@ -57,22 +48,19 @@
             </div>
             <div class="row ml-auto">
                 <a class="nav-link" href="../auth/login.html">
-                    <!--login-->
                     <i class="fas fa-user"></i>
                 </a>
                 <a class="nav-link " href="../auth/register.html">
-                    <!--register-->
                     <i id="icon" class="fas fa-sign-in-alt "></i>
                 </a>
                 <a class="nav-link" href="../order/index.html">
-                    <!--order index-->
                     <i class="fas fa-shopping-cart "></i>
                     <span class="badge badge-pill badge-danger">5</span>
                 </a>
             </div>
         </nav>
         <div class="collapse" id="navbarToggleExternalContent">
-            <div class="bg-light p-4">
+            <div class="bg-dark p-4">
                 <div class="md-form active-pink active-pink-2 mb-3 mt-0">
                     <input class="form-control" type="text" placeholder="Search" aria-label="Search">
                 </div>
@@ -123,12 +111,6 @@
 
     <main class="main" id="main">
         <!--breadcrumbs-->
-        <style>
-            .breadcrumb{
-                background: white;
-                margin: 0;
-            }
-        </style>
         <nav aria-label="breadcrumb">
             <ol class="breadcrumb">
                 <li class="breadcrumb-item active" aria-current="page">Home</li>
@@ -168,72 +150,72 @@
 
                     </div>
                     <div class="row">
-                        <div class="col-lg-4 col-md-6 col-sm-7 p-3">
-                            <a href="show.html">
+                        <div class="item col-lg-4 col-md-6 col-sm-7 p-3">
+                            <a href="../product/show.html">
                                 <div class="card shadow">
-                                    <img src="../images/kitten.jpg" alt="Denim Jeans" style="width:100%">
+                                    <img class="item" src="../images/kitten.jpg" alt="Autumn painting" style="width:100%">
                                     <div class="card-body">
-                                        <h1>Stuff</h1>
+                                        <h3>Stuff</h3>
                                         <p>Some text about the jeans..</p>
                                         <p class="price">$19.99</p>
                                     </div>
                                 </div>
                             </a>
                         </div>
-                        <div class="col-lg-4 col-md-6 col-sm-7 p-3">
-                            <a href="show.html">
+                        <div class="item col-lg-4 col-md-6 col-sm-7 p-3">
+                            <a href="../product/show.html">
                                 <div class="card shadow">
-                                    <img src="../images/kitten.jpg" alt="Denim Jeans" style="width:100%">
+                                    <img class="item" src="../images/kitten.jpg" alt="Autumn painting" style="width:100%">
                                     <div class="card-body">
-                                        <h1>Stuff</h1>
+                                        <h3>Stuff</h3>
                                         <p>Some text about the jeans..</p>
                                         <p class="price">$19.99</p>
                                     </div>
                                 </div>
                             </a>
                         </div>
-                        <div class="col-lg-4 col-md-6 col-sm-7 p-3">
-                            <a href="show.html">
+                        <div class="item col-lg-4 col-md-6 col-sm-7 p-3">
+                            <a href="../product/show.html">
                                 <div class="card shadow">
-                                    <img src="../images/kitten.jpg" alt="Denim Jeans" style="width:100%">
+                                    <img class="item" src="../images/kitten.jpg" alt="Autumn painting" style="width:100%">
                                     <div class="card-body">
-                                        <h1>Stuff</h1>
+                                        <h3>Stuff</h3>
                                         <p>Some text about the jeans..</p>
                                         <p class="price">$19.99</p>
                                     </div>
                                 </div>
                             </a>
                         </div>
-                        <div class="col-lg-4 col-md-6 col-sm-7 p-3">
-                            <a href="show.html">
+                        <div class="item col-lg-4 col-md-6 col-sm-7 p-3">
+                            <a href="../product/show.html">
                                 <div class="card shadow">
-                                    <img src="../images/kitten.jpg" alt="Denim Jeans" style="width:100%">
+                                    <img class="item" src="../images/kitten.jpg" alt="Autumn painting" style="width:100%">
                                     <div class="card-body">
-                                        <h1>Stuff</h1>
+                                        <h3>Stuff</h3>
                                         <p>Some text about the jeans..</p>
                                         <p class="price">$19.99</p>
                                     </div>
                                 </div>
                             </a>
                         </div>
-                        <div class="col-lg-4 col-md-6 col-sm-7 p-3">
-                            <a href="show.html">
+                        <div class="item col-lg-4 col-md-6 col-sm-7 p-3">
+                            <a href="../product/show.html">
                                 <div class="card shadow">
-                                    <img src="../images/kitten.jpg" alt="Denim Jeans" style="width:100%">
+                                    <img class="item" src="../images/kitten.jpg" alt="Autumn painting" style="width:100%">
                                     <div class="card-body">
-                                        <h1>Stuff</h1>
+                                        <h3>Stuff</h3>
                                         <p>Some text about the jeans..</p>
                                         <p class="price">$19.99</p>
                                     </div>
                                 </div>
                             </a>
                         </div>
-                        <div class="col-lg-4 col-md-6 col-sm-7 p-3">
-                            <a href="show.html">
+                        <div class="item col-lg-4 col-md-6 col-sm-7 p-3">
+                            <a href="../product/show.html">
                                 <div class="card shadow">
-                                    <img src="../images/kitten.jpg" alt="Denim Jeans" style="width:100%">
+                                    <img class="item" src="../images/kitten.jpg" alt="Autumn painting" style="width:100%">
                                     <div class="card-body">
-                                        <h1>Stuff</h1>
+                                        <h3>Stuff</h3>
                                         <p>Some text about the jeans..</p>
                                         <p class="price">$19.99</p>
                                     </div>
